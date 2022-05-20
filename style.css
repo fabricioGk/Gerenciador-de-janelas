@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+#janela{
+    background-color: rgb(7, 9, 107);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border-radius: 5px;
+    border-color: #201dcf;
+    border-right: 5cm;
+    cursor: pointer;
+}
+#title{
+    border:3px solid rgb(255, 255, 255);
+    padding: 2px 6px;
+    border-radius: 35px;
+}
+#buttonsStyles{
+    padding: 1rem;
+}
+
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+    font-size: bold;
+    min-width: 500px;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #16057a, #0AA1DD, #55acb9, #16057a);
+    background-size: 300% 300%;
+    animation: colors 10s ease infinite;
+}
+
+@keyframes colors {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
